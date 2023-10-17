@@ -2,6 +2,8 @@
 
 -- The SQL code used in Microsoft SQL Server Management Studio.
 
+
+DROP TABLE IF EXISTS customer_purchases;
 CREATE TABLE customer_purchases (
     id INT,
     age INT,
