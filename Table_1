@@ -1,0 +1,25 @@
+# Table: customer_purchases
+
+-- The SQL code used in Microsoft SQL Server Management Studio.
+
+CREATE TABLE customer_purchases (
+    id INT,
+    age INT,
+    gender VARCHAR(50),
+    item VARCHAR(50),
+    category VARCHAR(50),
+    purchase_amount INT,
+    location VARCHAR(255),
+    size VARCHAR(5),
+    colour TEXT,
+    season TEXT,
+    rating DECIMAL(3, 1),
+    sub TEXT,
+    method VARCHAR(255),
+    discount VARCHAR(5),
+    promo VARCHAR(5),
+    previous_buy INT,
+    preferred_method TEXT,
+    purchase_frequency TEXT,
+    PRIMARY KEY (id)
+);
